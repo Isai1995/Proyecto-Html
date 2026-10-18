@@ -1,0 +1,17 @@
+.header-pizzeria {
+    background-color: #dc3545;
+    color: white;
+}
+
+.tarjeta-pizza {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.tarjeta-pizza:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.caja-resumen {
+    border-left: 6px solid #198754 !important;
+}

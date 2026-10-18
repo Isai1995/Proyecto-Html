@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Pizzeria Ut Cancun BIS</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-light">
+
+    <div class="container py-4">
+
+        <header class="text-center my-4 p-4 rounded shadow-sm header-pizzeria">
+            <h1 class="fw-bold">Pizzeria Ut BIS</h1>
+            <p class="lead mb-0">Las Mejores Pizzas De La Uni</p>
+        </header>
+
+        <div class="row g-4 my-4">
+            
+            <div class="col-md-6">
+                <div class="card shadow-sm p-3 h-100 tarjeta-pizza">
+                    <h2 class="h4 text-danger">Pizza Ut</h2>
+                    <p>Salsa de tomate, queso mozzarella y albahaca.</p>
+                    <a href="#resumen" class="btn btn-danger mt-auto">Comprar Por $100</a>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card shadow-sm p-3 h-100 tarjeta-pizza">
+                    <h2 class="h4 text-danger">Pizza Ing</h2>
+                    <p>Salsa de tomate, pepperoni y queso extra.</p>
+                    <a href="#resumen" class="btn btn-danger mt-auto">Comprar Por $150</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div style="height: 150px;"></div>
+
+        <hr>
+
+        <div id="resumen" class="card shadow p-4 my-5 caja-resumen">
+            <h2 class="text-success mb-3">Resumen De Tu Pedido</h2>
+
+            <p><strong>📍 Lugar De Entrega:</strong> Edificio H / Salón 210</p>
+            <p><strong>🍕 Pizza elegida:</strong> Pizza Ut</p>
+
+            <div class="my-3">
+                <p class="fw-bold mb-1">🧀 Ingredientes Extras:</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="extra-queso">
+                    <label class="form-check-label" for="extra-queso">Extra queso (+$15)</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="champinones">
+                    <label class="form-check-label" for="champinones">Champiñones (+$10)</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="picante">
+                    <label class="form-check-label" for="picante">Salsa picante (+$5)</label>
+                </div>
+            </div>
+
+            <div class="my-3">
+                <p class="fw-bold mb-1">🎁 Propina para el repartidor:</p>
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-outline-secondary">$10</button>
+                    <button type="button" class="btn btn-outline-secondary">$15</button>
+                    <button type="button" class="btn btn-outline-secondary">$20</button>
+                </div>
+            </div>
+
+            <h3 class="text-danger fw-bold my-3">Total a pagar: $125</h3>
+
+            <button type="button" class="btn btn-success btn-lg w-100 fw-bold">Confirmar y Pedir</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
